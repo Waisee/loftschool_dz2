@@ -4,16 +4,16 @@ require 'src/functions.php';
 
 $array_string = ['one', 'two', 'three', 'four'];
 
-echo $result = task1($array_string, true);
+echo $result = task1($array_string, false);
 echo '<br>';
 
-task2('+', 567, 1, 23, 4, 56);
+task2('+', 4234, 34, 345, 456, 56);
 
 ?>
 <html>
     <body>
         <table>
-            <?php task3(9,5);?>
+            <?php task3(3,5);?>
         </table>
     </body>
 </html>
